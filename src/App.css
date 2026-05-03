@@ -37,8 +37,10 @@
   transition: all 0.3s ease;
 }
 
-.positive { color: #2ecc71; }
-.negative { color: #e74c3c; }
+.positive { color: #2ecc71; };
+
+.negative { color: #e74c3c; };
+
 
  .button-group {
   display: flex;
