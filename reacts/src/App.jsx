@@ -38,7 +38,10 @@ const App = () => {
           Tozalash (Reset)
         </button>
 
-        
+        </div>
+    </div>
+  );
+};
 export default App;
 
  
