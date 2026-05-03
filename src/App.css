@@ -44,8 +44,7 @@
 .positive { color: #2ecc71; }
 .negative { color: #e74c3c; }
 
-/* Tugmalar */
-.button-group {
+ .button-group {
   display: flex;
   gap: 10px;
   margin-bottom: 1rem;
