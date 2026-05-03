@@ -31,6 +31,8 @@ const App = () => {
           >
             🥦 Sabzavotlar
           </button>
+
+          
 export default App;
 
  
