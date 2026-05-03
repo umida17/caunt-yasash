@@ -25,7 +25,12 @@ const App = () => {
             🍎 Mevalar
           </button>
 
-          
+          <button 
+            className="btn btn-veggie" 
+            onClick={() => setCount(count - 1)}
+          >
+            🥦 Sabzavotlar
+          </button>
 export default App;
 
  
