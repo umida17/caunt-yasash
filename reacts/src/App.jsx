@@ -16,7 +16,14 @@ const App = () => {
             {count}
           </h1>
         </div>
-        
+
+        <div className="button-group">
+          <button 
+            className="btn btn-fruit" 
+            onClick={() => setCount(count + 1)}
+          >
+            🍎 Mevalar
+          </button>
 export default App;
 
  
