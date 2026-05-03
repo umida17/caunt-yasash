@@ -37,6 +37,8 @@ const App = () => {
         <button className="btn-reset" onClick={() => setCount(0)}>
           Tozalash (Reset)
         </button>
+
+        
 export default App;
 
  
