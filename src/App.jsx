@@ -63,3 +63,4 @@ const InfoModal = ({ isOpen, onClose }) => {
     </div>
   );
 };
+
