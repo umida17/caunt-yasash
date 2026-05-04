@@ -81,6 +81,7 @@
   border-radius: 10px;
   cursor: pointer;
   transition: background 0.3s;
+  margin-top: 18px;
 }
 
 .btn-reset:hover {
