@@ -57,3 +57,7 @@ const InfoModal = ({ isOpen, onClose }) => {
     <div className="modal-overlay" onClick={onClose}></div>
     <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <h3>Xabar</h3>
+        <p>Bu faqat modal oynasi. Buni o'zing xohlagan ma'lumotlar bilan to'ldirishing mumkin.</p>
+        <button className="btn-close" onClick={onClose}>Yopish</button>
+      </div>
+    </div>
