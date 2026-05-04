@@ -61,3 +61,5 @@ const InfoModal = ({ isOpen, onClose }) => {
         <button className="btn-close" onClick={onClose}>Yopish</button>
       </div>
     </div>
+    );
+};
