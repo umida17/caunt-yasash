@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Modal from './Modal';  
-import "./App.css";
+import "./Modal.css";
 
 const App = () => {
   const [count, setCount] = useState(0);
