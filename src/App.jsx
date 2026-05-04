@@ -53,3 +53,5 @@ export default App;
 const InfoModal = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
  
+  return (
+    <div className="modal-overlay" onClick={onClose}></div>
