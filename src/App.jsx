@@ -55,3 +55,5 @@ const InfoModal = ({ isOpen, onClose }) => {
  
   return (
     <div className="modal-overlay" onClick={onClose}></div>
+    <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+        <h3>Xabar</h3>
