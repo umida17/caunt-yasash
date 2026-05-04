@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
-import Modal from './Modal';  
-import "./Modal.css";
+ import React from 'react';
+import './Modal.css';
 
-const App = () => {
+const Modal = () => {
   const [count, setCount] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -34,4 +33,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default  Modal;

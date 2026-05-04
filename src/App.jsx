@@ -1,6 +1,6 @@
 
 import "./App.css"
-
+import Modal from './Modal';
 import React, { useState } from 'react';
 
  
@@ -46,8 +46,3 @@ const App = () => {
 
 
 export default App;
-
-
-
-
- 
