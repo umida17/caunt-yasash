@@ -50,5 +50,6 @@ export default App;
 
 
 
-
+const InfoModal = ({ isOpen, onClose }) => {
+  if (!isOpen) return null;
  
